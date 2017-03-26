@@ -1,0 +1,80 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: yes
+configure_terminal: yes
+configure_osx: yes
+
+dotfiles_repo: https://github.com/vinodh98/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  #- autoconf
+  - bash-completion
+  #- chromedriver
+  #- doxygen
+  #- gettext
+  #- gifsicle
+  - git
+  #- go
+  #- gpg
+  #- hub
+  - httpie
+  - iperf
+  #- libevent
+  #- sqlite
+  #- mcrypt
+  - nmap
+  #- npm
+  #- nvm
+  - ssh-copy-id
+  #- cowsay
+  #- readline
+  - openssl
+  #- pv
+  - wget
+  - youtube-dl
+  - ffmpeg
+  #- wrk
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  #- homebrew/binary
+  #- homebrew/dupes
+  #- homebrew/php
+  #- homebrew/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  #- docker
+  - dropbox
+  # - fing # Download link keeps getting changed, d'oh!
+  - firefox
+  - google-chrome
+  #- handbrake
+  #- licecap
+  #- limechat
+  #- macvim
+  #- nvalt
+  #- sequel-pro
+  #- skitch
+  - slack
+  - sublime-text
+  #- transmit
+  #- vagrant
+  #- virtualbox
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""

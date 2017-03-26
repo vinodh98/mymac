@@ -1,0 +1,4 @@
+---
+- name: vinodh98.dotfiles
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
