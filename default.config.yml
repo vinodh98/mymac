@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_sudoers: yes
+configure_sudoers: no
 configure_terminal: yes
 configure_osx: yes
 
