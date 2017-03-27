@@ -69,7 +69,7 @@ homebrew_cask_apps:
   #- sequel-pro
   #- skitch
   - slack
-  #- sublime-text # We will do this as a seperate task
+  - sublime-text 
   #- transmit
   #- vagrant
   #- virtualbox
