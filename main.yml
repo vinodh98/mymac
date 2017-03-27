@@ -26,4 +26,4 @@
       when: configure_osx
 
     - include: tasks/sublime-text.yml
-      when: configure_sublime-text
+      when: configure_sublime
