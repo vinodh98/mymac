@@ -1,0 +1,20 @@
+---
+- name: create user's sublime config folders 
+  file:
+    path: "{{ item.dest }}"
+      state: directory
+      mode: 0755
+    with_items:
+      - { dest: '~/Library/Application Support/Sublime Text 3/Installed Packages' }
+      - { dest: '~/Library/Application Support/Sublime Text 3/Packages/User' }
+
+- name: install sublime text package control
+  get_url:
+    url: http://packagecontrol.io/Package Control.sublime-package
+    dest: '~/Library/Application Support/Sublime Text 3/Installed Packages'
+    mode: 0644
+
+- name: deploy our sublime settings
+  copy:
+    src: files/sublime-text/  
+    dest: '~/Library/Application Support/Sublime Text 3/Packages/User/'

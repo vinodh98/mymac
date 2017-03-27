@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ayu",
+		"BracketHighlighter",
+		"Dockerfile Syntax Highlighting",
+		"Gutter Color",
+		"HTML-CSS-JS Prettify",
+		"InsertDate",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PlainTasks",
+		"PowerShell",
+		"Pretty JSON",
+		"ProjectManager",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"SublimeLinter-pyyaml"
+	]
+}
