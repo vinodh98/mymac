@@ -1,9 +1,9 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_sudoers: no
 configure_terminal: yes
 configure_osx: yes
+configure_sublime-text: yes
 
 dotfiles_repo: https://github.com/vinodh98/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
@@ -69,7 +69,7 @@ homebrew_cask_apps:
   #- sequel-pro
   #- skitch
   - slack
-  - sublime-text
+  #- sublime-text # We will do this as a seperate task
   #- transmit
   #- vagrant
   #- virtualbox
