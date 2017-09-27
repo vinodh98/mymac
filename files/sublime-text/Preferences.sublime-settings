@@ -1,20 +1,22 @@
 {
-    "always_show_minimap_viewport": true,
-    "close_windows_when_empty": true,
-    "color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
-    "font_face": "Roboto Mono",
-    "font_size": 16,
-    "highlight_line": true,
-    "hot_exit": false,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "scroll_past_end": true,
-    "theme": "ayu-mirage.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "ui_big_tabs": true,
-    "ui_fix_tab_labels": true,
-    "ui_font_size_small": false,
-    "ui_separator": true
+	"always_show_minimap_viewport": true,
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"font_face": "Roboto Mono",
+	"font_size": 32,
+	"highlight_line": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"scroll_past_end": true,
+	"spell_check": true,
+	"theme": "ayu-dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"ui_big_tabs": true,
+	"ui_fix_tab_labels": true,
+	"ui_font_size_small": false,
+	"ui_separator": true
 }

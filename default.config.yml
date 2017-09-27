@@ -49,6 +49,8 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - caskroom/fonts
+
   #- homebrew/binary
   #- homebrew/dupes
   #- homebrew/php
@@ -56,8 +58,8 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  #- docker
-  - dropbox
+  - docker
+  #- dropbox
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
@@ -74,6 +76,13 @@ homebrew_cask_apps:
   #- transmit
   #- vagrant
   #- virtualbox
+
+# Install some fonts
+homebrew_fonts:
+   - font-inconsolata
+   - font-roboto-mono
+   - font-source-code-pro
+   - font-ubuntu
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
