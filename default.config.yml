@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - wget
   - youtube-dl
   - ffmpeg
+  - tldr
   #- wrk
 
 homebrew_taps:
@@ -60,7 +61,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - docker
-  #- dropbox
+  - dropbox
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
   - google-chrome
@@ -70,9 +71,10 @@ homebrew_cask_apps:
   #- macvim
   #- nvalt
   #- sequel-pro
-  #- skitch
+  - skitch
   - slack
   - sublime-text
+  - visual-studio-code
   - shiftit
   #- transmit
   #- vagrant
